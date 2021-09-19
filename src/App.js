@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
+import Footer from "./Footer";
 
 const dummyData = [
   {
@@ -41,6 +42,7 @@ const App = () => {
     <div>
       <NewExpense newExpense={newExpenseHandler} />
       <Expenses items={expenses} />
+      <Footer />
     </div>
   );
 };
