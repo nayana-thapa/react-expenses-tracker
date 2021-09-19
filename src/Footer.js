@@ -24,7 +24,7 @@ const Footer = () => {
         <strong>
           <span>
             Fork this project &nbsp;
-            <a href="https://github.com/nayana-thapa/expensesTracker" style={{color: 'white'}}>HERE</a>
+            <a href="https://github.com/nayana-thapa/react-expenses-tracker" style={{color: 'white'}}>HERE</a>
           </span>
         </strong>
       </div>
