@@ -8,25 +8,25 @@ const dummyData = [
     id: "e1",
     title: "Electricity Bill",
     amount: 4000,
-    date: new Date(2019, 11, 12),
+    date: new Date("2019-11-2"),
   },
   {
     id: "e2",
     title: "Big Basket",
     amount: 7500,
-    date: new Date(2019, 11, 5),
+    date: new Date("2019-11-5"),
   },
   {
     id: "e3",
     title: "Rent",
     amount: 50000,
-    date: new Date(2020, 9, 10),
+    date: new Date("2020-09-10"),
   },
   {
     id: "e4",
     title: "Water Bill",
     amount: 1000,
-    date: new Date(2021, 9, 3),
+    date: new Date("2021-05-12"),
   },
 ];
 const App = () => {
